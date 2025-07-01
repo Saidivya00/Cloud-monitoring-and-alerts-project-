@@ -1,4 +1,4 @@
-8# 📊 Cloud Monitoring and Alerts Project – AWS CloudWatch
+# 📊 Cloud Monitoring and Alerts Project – AWS CloudWatch
 
 This project demonstrates how to set up real-time monitoring and alerting for a cloud-based application hosted on **Amazon Web Services (AWS)** using **CloudWatch** and **Simple Notification Service (SNS)**.
 
