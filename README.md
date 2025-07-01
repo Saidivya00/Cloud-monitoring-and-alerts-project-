@@ -1,4 +1,4 @@
-# 📊 Cloud Monitoring and Alerts Project – AWS CloudWatch
+8# 📊 Cloud Monitoring and Alerts Project – AWS CloudWatch
 
 This project demonstrates how to set up real-time monitoring and alerting for a cloud-based application hosted on **Amazon Web Services (AWS)** using **CloudWatch** and **Simple Notification Service (SNS)**.
 
@@ -54,7 +54,7 @@ This project demonstrates how to set up real-time monitoring and alerting for a 
     }
   }
 }
-3. Set Up CloudWatch Dashboard
+## 3.Set Up CloudWatch Dashboard
 
 Created dashboard named: CloudApp-Monitor
 
@@ -70,7 +70,7 @@ Application health (if needed)
 
 
 
-4. Create CloudWatch Alarms
+ ## 4. Create CloudWatch Alarms
 
 Alarm 1: CPU Utilization > 80% for 5 minutes
 
@@ -79,7 +79,7 @@ Alarm 2: Disk Usage > 70%
 Triggered actions via SNS
 
 
-5. Configure SNS for Notifications
+## 5. Configure SNS for Notifications
 
 Created SNS topic: CloudAppAlerts
 
@@ -93,7 +93,7 @@ Linked SNS topic to CloudWatch alarms
 
 ---
 
-✅ Testing and Results
+## ✅ Testing and Results
 
 Simulated CPU load using the stress tool
 
@@ -107,7 +107,7 @@ Email alert received successfully
 
 ---
 
-📦 Deliverables
+## 📦 Deliverables
 
 Component	Description
 
@@ -120,13 +120,13 @@ Notifications	Email via SNS
 
 ---
 
-📄 Report Download
+## 📄 Report Download
 
 👉 Download Project 2 Report (PDF)
 
 
 ---
 
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates the successful setup of AWS CloudWatch for monitoring a cloud-hosted application. Real-time metrics, visual dashboards, and automated alerts ensure system reliability and proactive infrastructure management. This is an essential DevOps practice for modern cloud-based systems.
