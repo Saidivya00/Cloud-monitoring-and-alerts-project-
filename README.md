@@ -35,25 +35,7 @@ This project demonstrates how to set up real-time monitoring and alerting for a 
 - Installed the CloudWatch Agent  
 - Configured to monitor CPU, Disk, and Network metrics  
 
-#### 📄 Sample Agent Configuration:
-```json
-{
-  "metrics": {
-    "append_dimensions": {
-      "InstanceId": "${aws:InstanceId}"
-    },
-    "metrics_collected": {
-      "cpu": {
-        "measurement": ["cpu_usage_idle", "cpu_usage_user"],
-        "metrics_collection_interval": 60
-      },
-      "disk": {
-        "measurement": ["used_percent"],
-        "resources": ["/"]
-      }
-    }
-  }
-}
+---
 ## 3.Set Up CloudWatch Dashboard
 
 Created dashboard named: CloudApp-Monitor
